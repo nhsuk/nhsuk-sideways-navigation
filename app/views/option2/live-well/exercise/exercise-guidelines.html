@@ -1,0 +1,149 @@
+<!-- Use this page as the index for your project -->
+
+<!-- ADDING CUSTOM CSS - Add your custom CSS or Sass in /app/assets/sass/main.scss -->
+
+<!-- Extends the layout from /views/layout.html -->
+{% extends 'template-1.html' %}
+<!-- 
+  In /views/layout.html you can:
+    - change the header and footer 
+    - add custom CSS and JavaScript
+-->
+
+<!-- Set the page title -->
+{% block pageTitle %}
+  Benefits of exercise
+{% endblock %}
+
+<!-- For adding a breadcrumb -->
+<!-- Code examples can be found at https://service-manual.nhs.uk/design-system/components/breadcrumbs -->
+{% block beforeContent %}
+<nav class="nhsuk-breadcrumb beta-breadcrumb" aria-label="Breadcrumb">
+  <div class="nhsuk-width-container">
+    <ol class="nhsuk-breadcrumb__list">
+      
+      <li class="nhsuk-breadcrumb__item">
+          <a href="/" class="nhsuk-breadcrumb__link">Home</a>
+        </li>
+        
+      <li class="nhsuk-breadcrumb__item">
+          <a href="../../live-well" class="nhsuk-breadcrumb__link">Live Well</a>
+        </li>
+        
+      <li class="nhsuk-breadcrumb__item">
+          <a href="../exercise" class="nhsuk-breadcrumb__link">Exercise</a>
+        </li>
+        
+      </ol>
+
+      <p class="nhsuk-breadcrumb__back">
+        
+          <a href="../exercise" class="nhsuk-breadcrumb__backlink">
+            <span class="nhsuk-u-visually-hidden">Back to </span>
+            Exercise
+          </a>
+        
+      </p>
+    </div>
+  </nav>
+  
+{% endblock %}
+
+<!-- For adding a back link -->
+<!-- Code examples can be found at https://service-manual.nhs.uk/design-system/components/back-link -->
+{% block outerContent %}
+{% endblock %}
+
+<!-- For adding page content -->
+<!-- Page layout code can be found at https://service-manual.nhs.uk/design-system/styles/layout -->
+{% block content %}
+        
+<div class="nhsuk-grid-row">
+  <div class="nhsuk-grid-column-full">
+
+    <div class="nhsuk-u-reading-width">
+
+      
+  <h1>
+    
+      Exercise guidelines
+    
+  </h1>
+  <p class="nhsuk-lede-text">
+    Physical activity guidelines for children and adults.
+  </p>
+
+
+    </div>
+
+    <article>
+
+      
+
+  
+  
+  
+  
+  
+
+  
+    
+      <section class="nhsuk-u-reading-width">
+        <ul class="nhsuk-hub-key-links beta-hub-key-links">
+          
+            <li class="nhsuk-hub-key-links__list-item beta-hub-key-links__list-item">
+              <a href="exercise-guidelines/physical-activity-guidelines-for-adults-aged-19-to-64">
+                Physical activity guidelines for adults aged 19 to 64
+              </a>
+            </li>
+          
+            <li class="nhsuk-hub-key-links__list-item beta-hub-key-links__list-item">
+              <a href="exercise-guidelines/physical-activity-guidelines-older-adults">
+                Physical activity guidelines for older adults
+              </a>
+            </li>
+          
+            <li class="nhsuk-hub-key-links__list-item beta-hub-key-links__list-item">
+              <a href="exercise-guidelines/physical-activity-guidelines-children-and-young-people">
+                Physical activity guidelines for children and young people
+              </a>
+            </li>
+          
+            <li class="nhsuk-hub-key-links__list-item beta-hub-key-links__list-item">
+              <a href="exercise-guidelines/physical-activity-guidelines-children-under-five-years">
+                Physical activity guidelines for children (under 5 years)
+              </a>
+            </li>
+          
+            <li class="nhsuk-hub-key-links__list-item beta-hub-key-links__list-item">
+              <a href="exercise-guidelines/why-sitting-too-much-is-bad-for-us">
+                Why we should sit less
+              </a>
+            </li>
+          
+            <li class="nhsuk-hub-key-links__list-item beta-hub-key-links__list-item">
+              <a href="exercise-guidelines/wheelchair-users-fitness-advice">
+                Fitness advice for wheelchair users
+              </a>
+            </li>
+          
+        </ul>
+      </section>
+    
+  
+
+  <div class="nhsuk-u-reading-width nhsuk-u-margin-top-6 nhsuk-hub-after-key-links">
+    
+  </div>
+
+  
+
+
+
+    </article>
+
+  </div>
+</div>
+          
+
+{% endblock %}
