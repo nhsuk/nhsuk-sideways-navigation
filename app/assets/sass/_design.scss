@@ -1,0 +1,247 @@
+
+
+
+.nhsuk-breadcrumb {
+    background-color: #f0f4f5;
+}
+
+.beta-card--plain {
+        background-color: #f0f4f5;
+        border: #f0f4f5;
+        border-bottom: 4px solid #d8dde0;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        padding: 0 0 32px;
+}
+
+.app-brightcove-video {
+    background-color: #fff;
+    border-bottom: 1px solid #d8dde0;
+}
+
+
+.app-brightcove-video--date {
+    font-size: 14px;
+    line-height: 1.66667;
+    color: #4c6272;
+    padding: 16px;
+}
+
+.app-feedback-banner{
+    background-color: #fff;
+    bottom: 0;
+    box-shadow: 0 -4px 0 0 rgba(33,43,50,.16);
+    display: none;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+  }
+
+  .app-feedback-banner-v2{
+    background-color: #d8dde0;
+    bottom: 0;
+    box-shadow: 0 -4px 0 0 rgba(33,43,50,.16);
+    display: none;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+  }
+
+  .app-feedback-banner-v2hide{
+    background-color: #d8dde0;
+    bottom: 0;
+    box-shadow: 0 -4px 0 0 rgba(33,43,50,.16);
+    display: none;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+  }
+
+.app-feedback-banner__heading{
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin: 0;
+  } 
+
+  .app-feedback-banner__content {
+    position: relative;
+  }
+
+  .app-feedback-banner__message {
+    padding-bottom: 0;
+    margin-top: 8px;
+  }
+
+.app-feedback-banner__close {
+  font-size: 12px;
+  font-size: 1rem;
+  line-height: 1.66667;
+  color: #005eb8;
+  background: 0 0;
+  border: 0;
+  color: #212b32;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  right: 0;
+  text-decoration: underline;
+  top: 0;
+}
+
+.app-feedback-banner__message .nhsuk-u-margin-bottom-4{
+    margin-bottom: 10;
+}
+
+
+.app-feedback-banner__content::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.app-feedback-banner__close:hover {
+    color: #7c2855;
+    text-decoration: none;
+  }
+
+  .app-feedback-banner__close:focus {
+    background-color: #ffeb3b;
+    box-shadow: 0 -2px #ffeb3b,0 4px #212b32;
+    color: #212b32;
+    outline: 4px solid transparent;
+    text-decoration: none;
+  }
+
+  .cookie-declaration {
+    font-size: 1rem;
+  }
+
+  .app-feedback-banner__message{
+    font-size: 1rem;
+  }
+
+//Exploration - Card background colour -->
+  .exploration-nhsuk-card-bkrnd-colour-light-grey {
+    background-color: #d8dde0;
+    border: 1px solid #aeb7bd ;
+  }
+
+  .exploration-nhsuk-card-bkrnd-colour-light-yellow {
+    background-color: #fff9c4;
+    border: 1px solid #ffeb3b;
+  }
+
+
+  .feedback3-background-yellow {
+    background-color: #fff9c4;
+    box-shadow: 0 -4px 0 0 #ffeb3b;
+  }
+
+  .exploration-nhsuk-card__heading--feature-grey {
+    background-color: #4c6272;
+  }
+
+
+  .app-feedback-banner__close:focus {
+    background-color: #ffeb3b;
+  }
+
+
+  #app-feedback-banner-close {
+    display: block;
+    margin-right: 0px;
+  }
+
+
+#app-feedback-banner-close {
+  display: block;
+  padding-left: 10px ; 
+  padding-right: 10px ; 
+
+
+}
+
+
+//Floating banner
+#floatingButtons{
+  float: right;
+  padding: 0;
+  position: relative;
+  right: 0;
+}
+
+
+
+#HideButton{
+  float: right;
+  position: relative;
+  width: auto;
+  margin-right: 20px;
+  margin-bottom: 0.5em;
+}
+
+#app-feedback-banner-close{
+  float: right;
+  position: relative;
+  width: auto;
+}
+
+
+#footerHeader{
+  float: left;
+  position: relative;
+  min-width: 10em;
+  width: 50%;
+}
+
+
+#hideFooterContent{
+  clear: both;
+  width: 100%
+}
+
+//Cookie banner
+#nhsuk-cookie-banner .nhsuk-cookie-banner{
+  background: white;
+  position: relative;
+  box-shadow: 0 0 4px 0 #212b32;
+  padding: 24px 0 19px;
+  width: 100%;
+  z-index: 1;
+}
+
+#nhsuk-cookie-banner ul, #nhsuk-cookie-banner li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#nhsuk-cookie-banner li{
+  display: inline;
+  margin-right: 20px;
+}
+
+#nhsuk-cookie-banner h2{
+  font-size: 22px;
+  margin-bottom: 16px;
+  display: block;
+  font-weight: 600;
+  color: #292132;
+  margin-top: 0;
+}
+
+
+
+
+
+
